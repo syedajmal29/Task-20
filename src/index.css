@@ -1,0 +1,55 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+.main-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(./assets/bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box{
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+padding: 50px;
+  background: rgba( 255, 255, 255, 0.15 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 8px );
+  -webkit-backdrop-filter: blur( 3px );
+  border-radius: 10px;
+  margin: 10px 0px;
+ 
+}
+.input input{
+padding: 5px;
+outline: 0;
+margin: 10px;
+}
+.input label{
+  color: white;
+  width: 200px;
+}
+
+table{
+  color: white;
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+table tr th{
+  border: 2px solid white;
+  padding: 10px;
+}
+table tr td{
+  border: 2px solid white;
+  padding: 10px;
+}
